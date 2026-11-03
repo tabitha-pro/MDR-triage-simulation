@@ -127,9 +127,9 @@ These artifacts support initial alert validation, process context analysis, and 
 | 📋 [Incident Response Playbook](Incident%20Response%20Playbook.md) | Tier 1 / Tier 2 investigation, escalation, containment, and remediation procedures |
 | 📝 [MDR Investigation Notes](Investigation%20Notes.md) | Documented Splunk detection results, PowerShell execution analysis, incident classification, and lessons learned |
 | 🔍 [Splunk Detection Queries](Splunk%20Queries.spl) | SPL detection and threat hunting queries |
-| 📊 [Splunk Triage Table Evidence](splunk-triage-table.png.png) | Screenshot documenting Splunk search results, process creation telemetry, and forensic fields |
-| 💻 [PowerShell Simulation Evidence](attack-simulation-powershell.png) | Screenshot documenting the controlled PowerShell execution |
-| 📜 [Splunk License Configuration](splunk-free-license.png) | Screenshot documenting the standalone Splunk Enterprise Free license environment |
+| 📊 [Splunk Triage Table Evidence](Images/splunk-triage-table.png.png) | Screenshot documenting Splunk search results, process creation telemetry, and forensic fields |
+| 💻 [PowerShell Simulation Evidence](Images/attack-simulation-powershell.png) | Screenshot documenting the controlled PowerShell execution |
+| 📜 [Splunk License Configuration](Images/splunk-free-license.png) | Screenshot documenting the Splunk Enterprise Free license environment |
 
 ---
 
