@@ -1,0 +1,12 @@
+; ==============================================================================
+; MDR Triage Simulation - Detection Queries
+; Environment: Splunk Enterprise / Sysmon Operational Logs
+; ==============================================================================
+
+; Query 1: Broad PowerShell Process Creation Detection
+index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*\\powershell.exe"
+
+; Query 2: Targeted Execution Policy Bypass Triage View
+index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*\\powershell.exe" (CommandLine="*Bypass*" OR CommandLine="*NoProfile*")
+| table _time host User ParentImage CommandLine ProcessId
+| sort - _time
