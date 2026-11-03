@@ -125,7 +125,8 @@ These artifacts support initial alert validation, process context analysis, and 
 | Artifact | Description |
 |---|---|
 | 📋 [Incident Response Playbook](Incident%20Response%20Playbook.md) | Tier 1 / Tier 2 investigation, escalation, containment, and remediation procedures. |
-| 🔍 [Splunk Detection Queries](Splunk%20Queries.spl) | Custom SPL detection queries for identifying suspicious PowerShell execution and supporting threat hunting investigations. |
+| 🔍 [Splunk Detection Queries](Splunk%20Queries.spl) | Custom SPL detection and threat hunting queries for identifying suspicious PowerShell activity. |
+| 📊 [Splunk Triage Table Evidence](splunk-triage-table.png.png) | Screenshot of Splunk detection results displaying process creation telemetry, command-line arguments, and relevant forensic fields used during initial triage. |
 | 💻 [PowerShell Simulation Evidence](attack-simulation-powershell.png) | Screenshot demonstrating controlled PowerShell execution with execution policy bypass and profile suppression arguments. |
 | 📜 [Splunk License Configuration](splunk-free-license.png) | Screenshot verifying the Splunk Enterprise Free license configuration used in the lab environment. |
 
